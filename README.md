@@ -11,7 +11,7 @@
 ### Docker
 
 ```shell
-# Ready-made for you :)
+# Ready-made for you - just run in cloned repo root :)
 docker run -p 8080:8080 -p 8081:8081 --pull always -e LIVEBOOK_PASSWORD="codebeam2025" -u $(id -u):$(id -g) -v $(pwd)/livebooks:/data ghcr.io/livebook-dev/livebook
 ```
 In order to access and save notebooks directly to your machine
